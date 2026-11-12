@@ -1,8 +1,7 @@
 {
   "name": "Hermes Crystal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.4.0",
   "author": "Hermes",
-  "authorUrl": "",
-  "description": "Amethyst crystal-glass theme with animated dashboard support. Deep violet nebula, serif gradient headings, glassmorphism panes."
+  "authorUrl": ""
 }
