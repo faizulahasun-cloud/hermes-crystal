@@ -2,7 +2,7 @@
 
 Amethyst crystal-glass theme for Obsidian. Deep violet nebula background, glassmorphism panes, serif gradient headings, and glowing purple accents.
 
-![Hermes Crystal](./screenshot.png)
+![Hermes Crystal](./images/screenshot.png)
 
 ## Features
 
@@ -14,17 +14,17 @@ Amethyst crystal-glass theme for Obsidian. Deep violet nebula background, glassm
 - **Mobile aware** — dedicated `is-mobile` background variant for iPhone portrait
 - **Plugin support** — tuned styles for Kanban, Dataview, Tasks, and obsidian-git
 
-## Hermes Dashboard
+## Companion plugin: Agentic Dashboard
 
-The theme includes a matching stylesheet set for a custom dashboard note (hero clock, quick capture, task list, calendar, stats). If you use the dashboard note, enable it via cssclass:
+The dashboard this theme was designed around is now a standalone community plugin: [Agentic Dashboard](https://github.com/faizulahasun-cloud/agentic-dashboard) — a crystal-glass dashboard with video hero, quick capture, today's tasks, calendar, stats, meetings, recents and inbox, plus built-in agent actions (Obsidian CLI + `obsidian://` links). It works with any theme and has no plugin dependencies.
+
+If you use the original custom dashboard note instead, the theme styles it via the `hermes-dashboard` cssclass:
 
 ```yaml
 ---
 cssclasses: [hermes-dashboard]
 ---
 ```
-
-The dashboard works without it too — the rest of the theme applies to every note automatically.
 
 ## Install
 
